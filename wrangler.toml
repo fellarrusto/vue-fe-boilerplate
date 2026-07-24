@@ -1,0 +1,12 @@
+# Cloudflare Pages — deploy con `npm run deploy`
+# Rinomina `name` con quello del tuo progetto Pages.
+name = "vue-fe-boilerplate"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "dist"
+
+# Se colleghi il repo a Cloudflare Pages dalla dashboard, imposta:
+#   Build command:      npm run build
+#   Build output dir:   dist
+#   Node version:       20 (variabile NODE_VERSION)
+# Le variabili VITE_* vanno inserite tra le Environment Variables del progetto,
+# perche' vengono inlinate a build time (non sono segreti runtime).

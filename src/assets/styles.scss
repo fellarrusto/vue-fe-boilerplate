@@ -1,0 +1,29 @@
+/* Stili globali dell'app. I singoli componenti usano Tailwind + PrimeVue. */
+@use 'primeicons/primeicons.css';
+@use '@/assets/tailwind.css';
+@use '@/assets/layout/layout.scss';
+
+/* ───────── Scrollbar sottile ───────── */
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+}

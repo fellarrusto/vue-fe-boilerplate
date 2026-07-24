@@ -1,0 +1,15 @@
+node_modules
+dist
+coverage
+*.log*
+.cache
+.output
+.env
+.env.local
+.env.*.local
+.DS_Store
+**/.DS_Store
+.idea
+.vscode
+.eslintcache
+.wrangler

@@ -1,0 +1,19 @@
+@media (max-width: 991px) {
+  .full-width-mobile {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+    min-height: calc(100vh - 4rem);
+  }
+
+  .layout-main-container {
+    padding-top: 4rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .layout-main {
+    padding-bottom: 0 !important;
+  }
+}

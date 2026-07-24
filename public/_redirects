@@ -1,0 +1,2 @@
+# SPA fallback: senza questa riga un refresh su /items da' 404 su Cloudflare Pages
+/*    /index.html   200
