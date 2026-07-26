@@ -9,9 +9,6 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
 
   return {
-    optimizeDeps: {
-      noDiscovery: true,
-    },
     plugins: [
       vue(),
       // Auto-import dei componenti PrimeVue: <Button />, <DataTable />, ... senza import espliciti
