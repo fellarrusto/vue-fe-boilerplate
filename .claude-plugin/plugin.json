@@ -1,0 +1,8 @@
+{
+  "name": "vue-fe-boilerplate",
+  "description": "Scaffolding per un frontend Vue 3 con Vite, PrimeVue 4 Aura, Tailwind, Pinia, Vue Router, Axios e Firebase Auth. Parte senza backend grazie a mock auth e mock API.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Filippo Leonelli"
+  }
+}
